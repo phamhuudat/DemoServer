@@ -5,7 +5,7 @@ app.set('port', process.env.PORT || 5000);
 
 // Our first route
 app.get('/', function (req, res) {
-  res.send('Hello Node + GitHub! tôi yêu em');
+  res.send('Hello Node + GitHub!');
 });
 
 // Listen to port
